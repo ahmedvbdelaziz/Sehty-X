@@ -630,6 +630,7 @@ body {
 	height: 200px;
 	background: #fff;
 	opacity: 0;
+	filter: alpha(opacity=0);
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
 	border-radius: 100%;
 	-webkit-animation: waves 3s ease-in-out infinite;

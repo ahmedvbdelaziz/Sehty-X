@@ -13,7 +13,7 @@ const Slider = () => {
       btn2: { to: "/About", text: "Learn More" },
     },
     {
-      background: `${process.env.PUBLIC_URL}/img/swiper2.avif`,
+      background: `${process.env.PUBLIC_URL}/img/Swiper2.webp`,
       title: "Empowering <span>Health</span> Through <span>Awareness</span>",
       text: "Explore trusted medical content and connect with your health journey.",
       btn1: { to: "/Awareness", text: "Get Started" },

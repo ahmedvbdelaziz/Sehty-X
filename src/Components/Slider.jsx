@@ -2,27 +2,25 @@ import React from 'react';
 import { NavLink } from "react-router-dom";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Autoplay } from 'swiper/modules';
-import img1 from "../assits/background1.webp"
-import img2 from "../assits/Swiper2.webp"
-import img3 from "../assits/slider3.webp"
+
 const Slider = () => {
   const slides = [
     {
-      background: img1,
+      background: `${process.env.PUBLIC_URL}/img/background1.webp`,
       title: "We Provide <span>Medical</span> Services That You Can <span>Trust!</span>",
       text: "Our mission at Sehty is to provide a healthcare community where everyone can thrive.",
       btn1: { to: "/Awareness", text: "Awareness" },
       btn2: { to: "/About", text: "Learn More" },
     },
     {
-      background: img2,
+      background: `${process.env.PUBLIC_URL}/img/swiper2.avif`,
       title: "Empowering <span>Health</span> Through <span>Awareness</span>",
       text: "Explore trusted medical content and connect with your health journey.",
       btn1: { to: "/Awareness", text: "Get Started" },
       btn2: { to: "/Contact", text: "Contact Us" },
     },
     {
-      background: img3,
+      background: `${process.env.PUBLIC_URL}/img/slider3.webp`,
       title: "We Provide <span>Medical</span> Services That You Can <span>Trust!</span>",
       text: "This mission contains three essential tenets that Sehty embodies every day.",
       btn1: { to: "/Awareness", text: "Awareness" },
